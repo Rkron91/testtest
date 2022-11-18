@@ -1,0 +1,26 @@
+.challenges {
+    display: flex;
+    max-width: 90%;
+}
+
+#challenge-list {
+    flex-wrap: wrap;
+    display: flex;
+    
+    max-width: 100%;
+    gap: 10px;
+
+}
+
+.challenges > ul {
+    list-style: none;
+
+
+}
+li {
+    width: 150px;
+    height: auto;
+}
+li > img {
+    width: 100%;
+}
