@@ -32,7 +32,7 @@ function addCard(challengeArray) {
         challengeList.appendChild(card);
     });
 }
-
+console.log(challengeArray);
 addCard(challengeArray);
 
 
